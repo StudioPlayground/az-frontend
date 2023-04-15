@@ -16,6 +16,5 @@ yarn dev
 docker build -t az-frontend .
 
 # run container
-docker run -d -p 3000:3000 --name az-fron
-tend az-frontend
+docker run -d -p 3000:3000 --name az-frontend az-frontend
 ```
