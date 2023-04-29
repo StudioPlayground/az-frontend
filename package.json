@@ -13,8 +13,11 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@leecheuk/react-google-login": "^5.4.1",
     "@mui/material": "^5.12.0",
+    "@react-oauth/google": "^0.10.0",
     "i18next": "^22.4.14",
+    "jwt-decode": "^3.1.2",
     "localforage": "^1.10.0",
     "lodash": "^4.17.21",
     "match-sorter": "^6.3.1",

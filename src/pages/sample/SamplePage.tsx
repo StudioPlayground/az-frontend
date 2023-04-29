@@ -1,5 +1,14 @@
-import React from 'react';
+import { GoogleLoginButton } from '@components/buttons/GoogleLoginButton';
 
 export const SamplePage = () => {
-  return <div>Sample Page</div>;
+  return (
+    <>
+      <div>
+        <h1>Sample Page</h1>
+      </div>
+      <div>
+        <GoogleLoginButton />
+      </div>
+    </>
+  );
 };
